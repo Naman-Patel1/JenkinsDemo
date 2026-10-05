@@ -20,4 +20,8 @@ public class CalculatorTest {
     void testMultiply() {
         assertEquals(20, calculator.multiply(4, 5));
     }
+    @Test
+void testDivide() {
+    assertEquals(5, calculator.divide(10, 2));
+}
 }
